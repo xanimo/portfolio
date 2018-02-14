@@ -40,7 +40,7 @@ let projects = [
 			'Hangman built using Node.js and javascript constructors. '],
 		date: '2018',
 		github: 'https://github.com/xanimo/constructor-hangman',
-		tags: ['Hangman', 'game', 'node.js'],
+		tags: ['Hangman', 'game', 'Node.js'],
 		weight: 1
 	},
 	{
@@ -59,6 +59,14 @@ let projects = [
 		tags: ['jekyll','github','open data'],
 		github: 'https://github.com/xanimo/jkan',
 		websites: ['https://xanimo.github.io/jkan/index.html']
+	},
+		{
+		id: 'todo-list-sequelize',
+		name: 'Todo List Sequelize',
+		desc: ['A todo list app using sequelize.'],
+		date: '2017',
+		tags: ['sequelize','MySql'],
+		github: 'https://github.com/xanimo/todo-list-sequelize'
 	}
 ];
 
