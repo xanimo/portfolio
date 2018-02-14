@@ -4,6 +4,14 @@
 
 let projects = [
 	{
+		id: 'mcpa',
+		name: 'Marin County Psychological Association',
+		desc: ['Built back & front ends for their member registration & renewal applications, in addition to event Registration pages utilizing Square Checkout as their merchant service provider.'],
+		date: 'February 2018',
+		websites: ['https://mcpapayments.azurewebsites.net/paymentForm.aspx','https://mcpaevent.azurewebsites.net/eventRegistration.aspx'],
+		tags: ['ASP.NET','Visual Basic','Square']
+	},
+	{
 		id: 'friendfinder',
 		name: 'FriendFinder',
 		desc: [
@@ -40,7 +48,7 @@ let projects = [
 			'Hangman built using Node.js and javascript constructors. '],
 		date: '2018',
 		github: 'https://github.com/xanimo/constructor-hangman',
-		tags: ['Hangman', 'game', 'node.js'],
+		tags: ['Hangman', 'game', 'Node.js'],
 		weight: 1
 	},
 	{
@@ -68,6 +76,7 @@ let projects = [
 		tags: ['sequelize','MySql'],
 		github: 'https://github.com/xanimo/todo-list-sequelize'
 	},
+					{
 				{
 		id: 'link-sf',
 		name: 'Link-Oakland',
@@ -77,6 +86,22 @@ let projects = [
 		github: 'https://github.com/xanimo/link',
 					websites: ['https://link-ucb.firebaseapp.com']
 	},
+	{
+		id: 'bestlilporkhouse',
+		name: 'Best Lil\' Porkhouse',
+		desc: ['Built both back & front end.  Entire site is dynamic including layout and content which is enabled by leveraging master pages and feeding into literal tags with sql datareaders.'],
+		date: '2013-Present',
+		tags: ['ASP.NET','Visual Basic','jQuery','MSSQL'],
+		websites: ['http://bestlilporkhouse.com']
+	},
+	{
+		id: 'bluemafia',
+		name: 'Blue Mafia',
+		desc: ['Website template built for friend and author, Timothy Tolka, in preperation of his book launch titled Blue Mafia'],
+		date: 'February 2018',
+		tags: ['ASP.NET','Visual Basic','jQuery','MSSQL'],
+		websites: ['https://bluemafia.azurewebsites.net']
+	}
 ];
 
 
