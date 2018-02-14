@@ -59,7 +59,24 @@ let projects = [
 		tags: ['jekyll','github','open data'],
 		github: 'https://github.com/xanimo/jkan',
 		websites: ['https://xanimo.github.io/jkan/index.html']
-	}
+	},
+			{
+		id: 'todo-list-sequelize',
+		name: 'Todo List Sequelize',
+		desc: ['A todo list app using sequelize.'],
+		date: '2017',
+		tags: ['sequelize','MySql'],
+		github: 'https://github.com/xanimo/todo-list-sequelize'
+	},
+				{
+		id: 'link-sf',
+		name: 'Link-Oakland',
+		desc: ['Leveraged the Zendesk Link-sf repository and deployed to firebase for UC Berkeley Coding Bootcamp\'s first project December 2017.  R & D for Open Source HSDA applications.'],
+		date: '2017',
+		tags: ['sequelize','MySql'],
+		github: 'https://github.com/xanimo/link',
+					websites: ['https://link-ucb.firebaseapp.com']
+	},
 ];
 
 
