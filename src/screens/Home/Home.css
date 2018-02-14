@@ -1,0 +1,69 @@
+.app {
+	margin: 0 auto 0 auto;
+	width: 95%;
+	max-width: 1200px;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.headerDiv {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 1rem;
+}
+
+.content {
+	margin-top: 2rem;
+	display: flex;
+	flex-direction: row;
+	align-content: flex-start;
+	/* dont use justify content center as single col */
+	flex-wrap: wrap;
+	flex-grow: 100;
+}
+
+.noResults {
+	font-size: 1.5rem;
+	width: 100%;
+	text-align: center;
+	margin-top: 2rem;
+	color: grey;
+}
+
+.footerDiv {
+	font-size: 0.9rem;
+	margin-top: 2.5rem;
+	margin-bottom: 1rem;
+	color: slategray;
+}
+
+.horizSpace {
+	margin: 0 0.5rem;
+}
+
+.footerDiv a {
+	text-decoration: none;
+	border-bottom: 1px dotted;
+	color: inherit;
+}
+
+@media all and (max-width: 1200px) {
+	.app {
+		width: 98%;
+	}
+	.headerDiv {
+		margin: 1rem 0.5rem 0 0.5rem;
+	}
+	.footerDiv {
+		margin-left: 1rem;
+	}
+}
+
+@media all and (max-width: 550px) {
+	.content { /* single row */
+		justify-content: center;
+	}
+}
